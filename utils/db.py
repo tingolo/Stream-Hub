@@ -36,7 +36,6 @@ class Database:
         '''Creates and gives the session for the connection to db server. 
             For getting a session, first make sure to connect to db with connect() function.
         '''
-        
         if (cls.__SessionLocal is None):
             raise ConnectionError("Database not connected.")
 
