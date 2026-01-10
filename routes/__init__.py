@@ -1,0 +1,2 @@
+from routes.authentication.registerRoute import registerRouter
+from routes.authentication.loginRoute import loginRouter
